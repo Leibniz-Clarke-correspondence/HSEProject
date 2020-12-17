@@ -1,6 +1,6 @@
 body {
   background-color: #222723;
-  color: #7D7733;
+  color: #2D2723;
 }
 
 h3 {
@@ -36,8 +36,7 @@ table {
 }
 
 #col-ref-to {
-    padding-top: 30px;
-    width: 150px;
+    padding-top: 0;
     background: #222723;
     vertical-align: top;
     color: blue;
@@ -57,9 +56,8 @@ table {
 }
 
 #col-ref-at {
-    padding-left: 20px;
-    padding-top: 30px;
-    width: 150px;
+    padding-left: 10px;
+    padding-top: 0;
     background: #222723;
     vertical-align: top;
     color: blue;
