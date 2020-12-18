@@ -87,7 +87,7 @@ table {
 }
 
 #col-en, #col-fr, #col-ru {
-    padding: 10px;
+    padding-top: 10px;
     vertical-align: top;
     background: #afccdb;
     border-width: #151523;
