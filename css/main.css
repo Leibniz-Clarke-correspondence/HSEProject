@@ -2,6 +2,7 @@ body {
   background-color: #222723;
   color: #2D2723;
   padding: 1em;
+  font-family: Georgia, serif;
 }
 
 h3 {
@@ -40,6 +41,7 @@ table {
     padding-top: 0;
     background: #222723;
     vertical-align: top;
+    text-align: right;
     color: blue;
 }
 
@@ -65,12 +67,22 @@ table {
 }
 
 #col-name {
-  font: georgia;
+  font-family: Georgia, serif;
   padding-left: 5px;
   background: #151523;
   text-align: left;
   border: 0px;
   color: #7D775C;
+}
+
+#col-tag {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-left: 5px;
+  background: #151523;
+  text-align: right;
+  border: 0px;
+  color: darkred;
 }
 
 #col-en, #col-fr, #col-ru {
