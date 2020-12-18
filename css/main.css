@@ -42,6 +42,14 @@ table {
   padding-right: 0;
 }
 
+#intro {
+	font: georgia;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	color: #7D775C;
+  text-align: left;
+	}
+
 #col-ref-to {
     padding-top: 0;
     background: #222723;
