@@ -37,6 +37,11 @@ table {
     margin: 0 auto;
 }
 
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .col-1, .col-sm-2, .col-md-2, .col-lg-2, .col-xl-2{
   padding-left: 0;
   padding-right: 0;
