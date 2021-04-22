@@ -1,6 +1,6 @@
 html {
   line-height: 1.5;
-  font-family: Helvetica, sans-serif;
+  font-family: Georgia, serif;
   font-size: 14px;
   color: #1a1a1a;
   background-color: #fdfdfd;
@@ -37,14 +37,28 @@ body {
     page-break-after: avoid;
   }
 }
+
+h3 {
+	font: italic normal 1.4em georgia;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+  text-align: center;
+	}
+
+h1 {
+  	font: bold normal 26px georgia;
+  	letter-spacing: 1px;
+  	margin-bottom: 0;
+    text-align: center;
+  	}
+
+  header {
+  	padding-top: 20px;
+  	height: 80px;
+  }
+
 p {
   margin: 1em 0;
-}
-a {
-  color: #1a1a1a;
-}
-a:visited {
-  color: #1a1a1a;
 }
 img {
   max-width: 100%;
@@ -124,21 +138,67 @@ header {
   margin-bottom: 4em;
   text-align: center;
 }
-.col1 {
-  background: #C7E3E4; width: 33%;
+.col-1, .col-sm-2, .col-md-2, .col-lg-2, .col-xl-2{
+  padding-left: 0;
+  padding-right: 0;
 }
-.col2 {
-  background: #E0D2C7; left: 33%; width: 34%;
-}
-.col3 {
-  background: #ECD5DE; right: 0; width: 33%;
-}
+
 #TOC li {
   list-style: none;
 }
 #TOC a:not(:hover) {
   text-decoration: none;
 }
+
+#intro {
+	font: georgia;
+	letter-spacing: 1px;
+	margin-top: 15px;
+  text-align: left;
+	}
+
+#col-ref-to {
+    font-family: Georgia, serif;
+    padding-top: 0;
+    padding-right: 10px;
+    vertical-align: top;
+    text-align: right;
+    color: blue;
+}
+
+#col-ref-at {
+    font-family: Georgia, serif;
+    padding-left: 10px;
+    padding-top: 0;
+    vertical-align: top;
+    color: blue;
+}
+
+#col-name {
+  font-family: Georgia, serif;
+  padding-top: 10px;
+  padding-left: 5px;
+  text-align: left;
+  border: 0px;
+  color: darkblue;
+  background: lightgrey;
+}
+
+#col-tag {
+  font-size: 0.9em;
+  font-style: italic;
+  padding-left: 5px;
+  text-align: right;
+  border: 0px;
+  color: darkred;
+}
+
+#col-en, #col-fr, #col-ru {
+    padding-top: 5px;
+    vertical-align: top;
+    border-color: red;
+}
+
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 span.underline{text-decoration: underline;}
