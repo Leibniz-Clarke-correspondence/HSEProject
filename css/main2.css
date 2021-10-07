@@ -197,6 +197,7 @@ td {
   text-align: right;
   border: 0px;
   color: darkred;
+  background: lightgrey;
 }
 
 #col-en, #col-fr, #col-ru {
